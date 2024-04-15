@@ -1,0 +1,43 @@
+{
+  "name": "jobs-queue-js",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "author": {
+    "email": "anas.jaidi@icloud.com",
+    "name": "Anas Jaidi"
+  },
+  "license": "MIT",
+  "description": "A simple jobs queue system",
+  "keywords": [
+    "jobs",
+    "queue",
+    "system",
+    "simple",
+    "async",
+    "await",
+    "promise",
+    "promise.all",
+    "promise.allSettled"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anasjaidi/-x1337-jobs-queue"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "nodemon dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "node-html-parser": "^6.1.13"
+  }
+}
